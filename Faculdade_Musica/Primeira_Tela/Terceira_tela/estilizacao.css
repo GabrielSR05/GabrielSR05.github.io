@@ -1,0 +1,107 @@
+body {
+    background-color: #0D0D0D; /* Define a cor de fundo do body */
+    color: #ffffff; /* Alterado para uma cor de texto visível no fundo escuro */
+    padding: 10px; /* Define o padding do body, removido o padding superior e inferior para evitar margens extras */
+    font-family: OCR A Std, monospace; /* Define a fonte do texto */
+}
+h1 {
+    font-size: 50px; /* Define o tamanho da fonte do h1 */
+    text-align: center; /* Centraliza o texto do h1 */
+}
+#containner {
+    background-attachment: fixed; /* Mantém o fundo fixo durante o scroll */
+    display: flex; /* Define o display como flex */
+    flex-direction: column; /* Define a direção do flex como coluna */
+    align-items: center; /* Alinha os itens no centro */
+}
+#artista img {
+    border-radius: 10px; /* Define bordas arredondadas */
+    width: 200px; /* Define a largura da imagem */
+    height: 200px; /* Define a altura da imagem */
+    margin: -9px; /* Define a margem negativa */
+    border: 2px groove white; /* Simplificado para uma borda branca */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+    text-align: center; /* Centraliza o texto */
+}
+button {
+    border-radius: 10px; /* Define bordas arredondadas */
+    width: 200px; /* Define a largura do botão */
+    height: 200px; /* Define a altura do botão */
+    border: 2px groove white; /* Simplificado para uma borda branca */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+    text-align: center; /* Centraliza o texto */
+    cursor: pointer; /* Define o cursor como pointer */
+}
+#albuns {
+    display: flex; /* Define o display como flex */
+    flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Reduzido o espaçamento entre os elementos */
+    margin-top: 20px; /* Adicionado espaço superior */
+    text-align: center; /* Centraliza o texto */
+}
+.fotosalbuns img {
+    background-color: #BF0404; /* Define a cor de fundo */
+    border-radius: 10px; /* Define bordas arredondadas */
+    width: 220px; /* Define a largura da imagem */
+    height: 220px; /* Define a altura da imagem */
+    padding: 10px 20px; /* Define o padding */
+    border: 2px groove white; /* Simplificado para uma borda branca */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+    margin: 10px; /* Adicionado margem entre os elementos */
+}
+a {
+    text-decoration: none; /* Remove a sublinha dos links */
+    color: #0D0D0D; /* Define a cor dos links */
+}
+a:hover {
+    color: #BF0404; /* Define a cor dos links ao passar o mouse */
+}
+#informacoes {
+    background-color: #BF0404; /* Define a cor de fundo */
+    border-radius: 10px; /* Define bordas arredondadas */
+    width: 50%; /* Define a largura */
+    height: 300px; /* Define a altura */
+    padding: 10px 20px; /* Define o padding */
+    border: 2px groove white; /* Simplificado para uma borda branca */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+    margin: 10px; /* Adicionado margem entre os elementos */
+    text-align: center; /* Centraliza o texto */
+    transition: transform 0.3s ease; /* Define a transição suave */
+}
+.linksInfos {
+    display: inline-flex; /* Define o display como inline-flex */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    border-radius: 10px; /* Define bordas arredondadas */
+    background-color: #ffffff; /* Define a cor de fundo */
+    width: 80%; /* Define a largura */
+    height: 50px; /* Define a altura */
+    margin-top: 20px; /* Adicionado espaço superior */
+    transform: scale(1.2); /* Aumenta a imagem em 20% */
+}
+.linksInfos p:hover {
+    text-align: center; /* Centraliza o texto ao passar o mouse */
+    margin: 10px; /* Define a margem ao passar o mouse */
+}
+#video {
+    background-color: #BF0404; /* Define a cor de fundo */
+    border-radius: 10px; /* Define bordas arredondadas */
+    width: 470px; /* Define a largura */
+    height: 400px; /* Define a altura */
+    margin-top: 100px; /* Adicionado espaço superior */
+    padding: 10px 20px; /* Define o padding */
+    border: 2px groove white; /* Simplificado para uma borda branca */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+    text-align: center; /* Centraliza o texto */
+}
+iframe {
+    border-radius: 10px; /* Define bordas arredondadas */
+    width: 470px; /* Define a largura */
+    height: 300px; /* Define a altura */
+    text-align: center; /* Centraliza o texto */
+}
+#voltar {
+    margin: 40px; /* Define a margem */
+    width: 100px; /* Define a largura */
+    height: 50px; /* Define a altura */
+}

@@ -1,0 +1,30 @@
+/*Página 01*/
+
+body{
+    background-image: radial-gradient(circle, #8C0303, #590202, #0D0D0D ); /* Define um gradiente radial como fundo */
+    background-attachment: fixed; /* Mantém o fundo fixo durante o scroll(Sistema de rolagem) */
+    height: 100%; /* Define a altura do body como 100% */
+    margin: 0; /* Remover margens padrão */
+    display: flex; /* Usa flexbox para alinhar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+button{ 
+    border-radius: 50%; /* Define bordas arredondadas */
+    width: 300px; 
+    height: 300px; 
+    position: fixed; /* Posiciona o botão de forma fixa na tela */
+    top: 50%; /* Centraliza verticalmente na tela */
+    left: 50%; /* Centraliza horizontalmente na tela */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
+    background: none; /* Remove o fundo padrão do botão */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o elemento é clicável */
+}
+
+img {
+    border-radius: 50%; /* Define bordas arredondadas */
+    width: 300px; 
+    height: 300px;
+    margin-left: -3%; /* Ajusta a margem esquerda */
+}

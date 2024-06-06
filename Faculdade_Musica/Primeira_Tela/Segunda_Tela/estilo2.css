@@ -1,0 +1,184 @@
+body {
+    background-color: #0D0D0D; /* Define a cor de fundo do body */
+    background-attachment: fixed; /* Mantém o fundo fixo durante o scroll */
+    color: #0D0D0D; /* Define a cor do texto */
+    padding: 10px 10px; /* Define o padding do body */
+    font-family: OCR A Std, monospace; /* Define a fonte do texto */
+}
+
+a:link {
+    text-decoration: none; /* Remove a sublinha dos links */
+    color: black; /* Define a cor dos links */
+    transition: transform 0.3s ease; /* Define uma transição suave ao transformar */
+}
+
+a:hover {
+    color: #000000; /* Define a cor dos links ao passar o mouse */
+    transform: scale(1.2); /* Aumenta a imagem em 20% ao passar o mouse */
+}
+
+h1 {
+    font-size: 50px; /* Define o tamanho da fonte do h1 */
+    text-align: center; /* Centraliza o texto do h1 */
+}
+
+div {
+    display: inline-flex; /* Define o display das divs como inline-flex */
+    flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
+    margin-top: -20px; /* Define a margem superior das divs */
+    background-attachment: fixed; /* Mantém o fundo fixo durante o scroll */
+}
+
+#containner {
+    background-attachment: fixed; /* Mantém o fundo fixo durante o scroll */
+}
+
+#bemvindo {
+    background-color: #BF0404; /* Define a cor de fundo */
+    border-radius: 10px; /* Define bordas arredondadas */
+    margin: 2%; /* Define a margem */
+    width: 40%; /* Define a largura */
+    height: 390px; /* Define a altura */
+    padding: 10px 20px; /* Define o padding */
+    border-color: #BF0404; /* Define a cor da borda */
+    border-style: groove; /* Define o estilo da borda */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+}
+
+#podcast {
+    background-color: #BF0404; /* Define a cor de fundo */
+    border-radius: 10px; /* Define bordas arredondadas */
+    margin: 2%; /* Define a margem */
+    width: 40%; /* Define a largura */
+    height: 250px; /* Define a altura */
+    padding: 10px 20px; /* Define o padding */
+    border-color: #BF0404; /* Define a cor da borda */
+    border-style: groove; /* Define o estilo da borda */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+}
+
+.iconPodcast img {
+    border: 5px solid #0D0D0D; /* Define a borda da imagem */
+    border-radius: 10%; /* Define bordas arredondadas */
+    width: 140px; /* Define a largura da imagem */
+    height: 140px; /* Define a altura da imagem */
+    margin-left: 10px; /* Define a margem esquerda */
+    margin-top: 35px; /* Define a margem superior */
+    transition: transform 0.3s ease; /* Define uma transição suave ao transformar */
+}
+
+.playlists img {
+    border: 5px solid #0D0D0D; /* Define a borda da imagem */
+    border-radius: 10%; /* Define bordas arredondadas */
+    width: 140px; /* Define a largura da imagem */
+    height: 140px; /* Define a altura da imagem */
+    margin-left: 10px; /* Define a margem esquerda */
+    margin-top: 35px; /* Define a margem superior */
+    transition: transform 0.3s ease; /* Define uma transição suave ao transformar */
+}
+
+.zoom:hover {
+    transform: scale(1.2); /* Aumenta a imagem em 20% ao passar o mouse */
+}
+
+#playlists {
+    display: inline-flex; /* Define o display como inline-flex */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 50%; /* Define bordas arredondadas */
+    width: 108px; /* Define a largura */
+    height: 100px; /* Define a altura */
+    margin: 1%; /* Define a margem */
+    align-items: flex-end; /* Alinha os itens ao final */
+}
+
+.notificacao {
+    display: inline-table; /* Define o display como inline-table */
+    background-color: #BF0404; /* Define a cor de fundo */
+    background-attachment: fixed; /* Mantém o fundo fixo durante o scroll */
+    border-radius: 10px; /* Define bordas arredondadas */
+    margin: 2%; /* Define a margem */
+    width: 725px; /* Define a largura */
+    height: 19%; /* Define a altura */
+    padding: 10px 20px; /* Define o padding */
+    border-color: #BF0404; /* Define a cor da borda */
+    border-style: groove; /* Define o estilo da borda */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+}
+
+.notificacao p {
+    background-color: rgba(255, 251, 252, 0.867); /* Define a cor de fundo */
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 15px; /* Define o padding */
+    border-color: #0D0D0D; /* Define a cor da borda */
+    border-style: groove; /* Define o estilo da borda */
+    transition: transform 0.3s ease; /* Define uma transição suave ao transformar */
+}
+
+.notificacao p:hover {
+    transform: scale(1.2); /* Aumenta a imagem em 20% ao passar o mouse */
+}
+
+#artistas {
+    background-color: #BF0404; /* Define a cor de fundo */
+    border-radius: 10px; /* Define bordas arredondadas */
+    margin: 2%; /* Define a margem */
+    width: 32.5%; /* Define a largura */
+    height: 403px; /* Define a altura */
+    padding: 10px 20px; /* Define o padding */
+    border-color: #BF0404; /* Define a cor da borda */
+    border-style: groove; /* Define o estilo da borda */
+    line-height: 4.0; /* Define a altura da linha */
+    margin-top: -120px; /* Define a margem superior */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+}
+
+.listaartista {
+    display: inline-flex; /* Define o display como inline-flex */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 1px; /* Define bordas arredondadas */
+    width: 90px; /* Define a largura */
+    height: 90px; /* Define a altura */
+    margin: 9px; /* Define a margem */
+    margin-top: 19%; /* Faz com que a div desça a partir da margem */
+    align-items: flex-end; /* Alinha os itens ao final */
+    margin-right: 14px; /* Define a margem direita */
+}
+
+#artistas img {
+    border: 5px #0D0D0D; /* Define a borda da imagem */
+    border-radius: 50%; /* Define bordas arredondadas */
+    width: 100px; /* Define a largura da imagem */
+    height: 100px; /* Define a altura da imagem */
+    margin-bottom: -60px; /* Define a margem inferior */
+    box-shadow: 0 0 8px white; /* Define a sombra da caixa */
+}
+
+#configuracao {
+    display: flex; /* Define o display como flex */
+    flex-direction: column; /* Define a direção do flex como coluna */
+    text-align: center; /* Centraliza o texto */
+    margin: 30px; /* Define a margem */
+    gap: 65px; /* Utilizado para espaçamento entre as linhas e colunas */
+    margin-top: -100px; /* Define a margem superior */
+}
+
+.inicio img {
+    display: inline-flex; /* Define o display como inline-flex */
+    background-color: #BF0404; /* Define a cor de fundo */
+    border-radius: 10px; /* Define bordas arredondadas */
+    margin: 2%; /* Define a margem */
+    width: 83px; /* Define a largura da imagem */
+    height: 83px; /* Define a altura da imagem */
+    padding: 10px 20px; /* Define o padding */
+    border-color: #BF0404; /* Define a cor da borda */
+    border-style: groove; /* Define o estilo da borda */
+    box-shadow: 0 0 10px white; /* Define a sombra da caixa */
+}
+
+.botoes p {
+    background-color: rgba(255, 251, 252, 0.867); /* Define a cor de fundo */
+    border-radius: 10px; /* Define bordas arredondadas */
+    font-weight: bold; /* Define o peso da fonte */
+    border-color: #0D0D0D; /* Define a cor da borda */
+    border-style: groove; /* Define o estilo da borda */
+}
